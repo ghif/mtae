@@ -3,7 +3,7 @@
 
 This code contains the Python implementation of the Multitask Autoencoder (MTAE) algorithm based on the following paper:
 
-M. Ghifary, B. Kleijn, M. Zhang, D. Balduzzi.<br/>
+M. Ghifary, W. B. Kleijn, M. Zhang, D. Balduzzi.<br/>
 **Domain Generalization for Object Recognition with Multi-task Autoencoders**,<br/>
 accepted in International Conference on Computer Vision (**ICCV 2015**), Santiago, Chile.<br/>
 [[pre-print](http://arxiv.org/abs/1508.07680)]
