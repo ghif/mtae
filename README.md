@@ -11,9 +11,15 @@ accepted in International Conference on Computer Vision (**ICCV 2015**), Santiag
 Please cite the above paper when using this code.
 
 _Notes_:
-- The implementation is based on the theano wrapper called [keras.io](keras.io)
+- This version is based on the Theano wrapper called [keras.io](keras.io), was written after the paper finished. The prior code of this work was implemented in MATLAB. 
+- Currently only works for the provided MNIST dataset (with 6 rotated views)
 - Still not well commented
-- Only works for the provided MNIST dataset (with 6 rotated views)
+
+_TO DO_:
+- RAND-SEL procedure
+- SVM classification
+- Supervised Finetuning
+
 
 For questions and bug reports, please send me an email at _mghifary[at]gmail.com_.
 
@@ -25,5 +31,5 @@ For questions and bug reports, please send me an email at _mghifary[at]gmail.com
   3. [Theano](http://deeplearning.net/software/theano/)
   4. [Keras](keras.io)
 2. Clone this repository, e.g.: ``` git clone https://github.com/ghif/mtae.git```
-3. Run the main program to reproduce Figure 4(d): ``` ./run_mtae_gpu.sh```
+3. Run the main program to reproduce either Figure 4(c) or (d): ``` ./run_mtae_gpu.sh```
 	* if you have a GPU, make sure that the nvcc compiler path is included in the environment variables.
