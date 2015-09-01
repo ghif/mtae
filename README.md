@@ -23,12 +23,10 @@ For questions and bug reports, please send me an email at _mghifary[at]gmail.com
 	- Numpy (e.g. `pip install numpy`)
 	- [Theano](http://deeplearning.net/software/theano/)
 	- [Keras](keras.io)
-
 2. Clone this repository
 ```sh
 git clone https://github.com/ghif/mtae.git
 ```
-
 3. Run the main program to reproduce Figure 4(d)
 Using GPU (make sure that the path to the nvcc compiler is included in the environment variables)
 ```sh
