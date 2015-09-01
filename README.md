@@ -15,11 +15,6 @@ _Notes_:
 - Currently only works for the provided MNIST dataset (with 6 rotated views)
 - Still not well commented
 
-_TO DO_:
-- RAND-SEL procedure
-- SVM classification
-- Supervised Finetuning
-
 
 For questions and bug reports, please send me an email at _mghifary[at]gmail.com_.
 
@@ -33,3 +28,8 @@ For questions and bug reports, please send me an email at _mghifary[at]gmail.com
 2. Clone this repository, e.g.: ``` git clone https://github.com/ghif/mtae.git```
 3. Run the main program to reproduce either Figure 4(c) or (d): ``` ./run_mtae_gpu.sh```
 	* if you have a GPU, make sure that the nvcc compiler path is included in the environment variables.
+
+### TO DO :
+- RAND-SEL procedure
+- SVM classification
+- Supervised Finetuning
