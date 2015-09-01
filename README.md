@@ -11,7 +11,7 @@ accepted in International Conference on Computer Vision (**ICCV 2015**), Santiag
 Please cite the above paper when using this code.
 
 _Notes_:
-- This version is based on the Theano wrapper called [keras.io](keras.io), was written after the paper finished. The prior code of this work was implemented in MATLAB. 
+- This version is based on the Theano wrapper called [keras.io](keras.io) and was written after the paper finished. The prior code of this work was implemented in MATLAB. 
 - Currently only works for the provided MNIST dataset (with 6 rotated views)
 - Still not well commented
 
